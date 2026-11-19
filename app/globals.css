@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-pixel: var(--font-pixel), ui-monospace, monospace;
+  --font-mono: var(--font-mono), ui-monospace, monospace;
+}
+
+/* Crisp pixel rendering for canvases and sprite previews */
+.pixelated {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+/* Custom subtle scrollbars for inspector panels */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #181c26;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333b4d;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475269;
+}

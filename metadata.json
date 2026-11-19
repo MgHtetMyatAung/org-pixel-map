@@ -1,0 +1,6 @@
+{
+  "name": "PixelHQ — Pixel Art Virtual Company",
+  "description": "Explore a living 2D pixel-art company headquarters, visit department rooms, browse the visual org chart, and talk with teammates in a retro RPG office.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
